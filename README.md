@@ -30,6 +30,5 @@ For the Sparkify data lake we have the 'songplays' table as the fact table and t
 ### Project Steps and how to run the project 
 
 1. create an AWS ACCESS KEY and update AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY in dl.cfg
-2. create a output bucket in AWS S3
-3. update the file path to the output bucket in etl.py line 126
-4. run python etl.py in the terminal
+2. create a output bucket in AWS S3 and add the path in etl.py line 152
+3. run python etl.py in the terminal
